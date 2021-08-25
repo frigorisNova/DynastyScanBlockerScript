@@ -4,7 +4,7 @@
 // @include     https://dynasty-scans.com/*
 // @version     1.0
 // @grant       none
-// @author      Helios
+// @author      frigorisNova
 // @downloadURL https://github.com/frigorisNova/DynastyScanBlockerScript/blob/main/Dynasty%20Tag%20Hider.user.js
 // @updateURL   https://github.com/frigorisNova/DynastyScanBlockerScript/blob/main/Dynasty%20Tag%20Hider.user.js
 // Base code borrowed from https://github.com/luejerry/dynasty-taghider/blob/master/dynastyhidetag.user.js
