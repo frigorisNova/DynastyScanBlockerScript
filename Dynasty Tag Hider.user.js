@@ -5,8 +5,9 @@
 // @version     1.0
 // @grant       none
 // @author      Helios
-// @downloadURL lol
-// @updateURL   gl
+// @downloadURL https://github.com/frigorisNova/DynastyScanBlockerScript/blob/main/Dynasty%20Tag%20Hider.user.js
+// @updateURL   https://github.com/frigorisNova/DynastyScanBlockerScript/blob/main/Dynasty%20Tag%20Hider.user.js
+// Base code borrowed from https://github.com/luejerry/dynasty-taghider/blob/master/dynastyhidetag.user.js
 // ==/UserScript==
 
 (function () {
@@ -117,6 +118,8 @@ function addShowHideElementsSeries (hideMap) {
             }});
               //counter = counter+1;
   })}
+  
+  //to do: optimize so it doesn't take a few seconds inbetween pages
   function hideSeries(seriesMap){
       let counter = 0;
       let series = Array.from(document.getElementsByClassName('name'));
@@ -170,7 +173,7 @@ function addShowHideElementsSeries (hideMap) {
      addShowHideElementsSeries(seriesMap);
   } else {
     hideTags(hiddenMap);
-     hideSeries(seriesMap);
+    //hideSeries(seriesMap);
   }
 
 })();
